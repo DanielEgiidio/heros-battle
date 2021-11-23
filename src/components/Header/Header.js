@@ -1,14 +1,12 @@
-import React from 'react';
 import "./Header.css";
+
 
 const Header = () => {
     return (
-        <>
-            <div>
-                <span className="header" >🦸 Heros Battle 🦸</span>
-            </div>
-        </>
-    )
-}
+                <span className="header" onClick={() => window.scroll(0,0)}>
+                    🦸Heros Battle🦸
+                </span>     
+    );
+};
 
 export default Header;
