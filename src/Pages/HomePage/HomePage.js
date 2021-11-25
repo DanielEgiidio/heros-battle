@@ -6,7 +6,6 @@ import "./HomePage.css";
 
 const HomePage = () => {
     const [content, setContent] = useState([]);
-    const [page, setPage] = useState(1);
 
       const fetchHeros = async () => {
           const {data} = await axios.get(
@@ -18,7 +17,8 @@ const HomePage = () => {
 
       useEffect(() => {
         fetchHeros();
-      },[page])
+        //eslint-disable-next-line
+      },[])
     
 
     return (

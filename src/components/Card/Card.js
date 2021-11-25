@@ -1,3 +1,4 @@
+import ContentModal from "../Modal/ContentModal";
 import "./Card.css";
 
 const Card = ({
@@ -7,11 +8,11 @@ const Card = ({
     imagesmd,
 }) => {
     return (
-        <div className="media" >
+        <ContentModal>
             <img className="image" src={imagesmd} alt={name}/>
             <b className="name">{name}</b>
             
-        </div>
+        </ContentModal>
     )
 }
 
