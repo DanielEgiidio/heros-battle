@@ -12,7 +12,7 @@ Você pode clonar o projeto e rodá-lo localmente seguindo os passos abaixo:
 
 
 - git clone https://github.com/DanielEgiidio/heros_battle.git para clonar o projeto
-- npm para instalar as dependências do projeto
+- npm install para instalar as dependências do projeto
 - npm start
 - Acessar http://localhost:3000 no navegador
 
